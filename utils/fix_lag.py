@@ -7,7 +7,7 @@ DELTA_LAG = -9
 
 offset = timedelta(hours=DELTA_LAG)
 
-date_time_str_len = 19  # Este es el largo de la cadena 'YYYY_MM_DDTHH_MM_SS'
+date_time_str_len = 19  # 'YYYY_MM_DDTHH_MM_SS'
 
 for root, dirs, files in os.walk(main_path):
     print(f'Processing folder: {root}')

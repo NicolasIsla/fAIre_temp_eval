@@ -29,7 +29,6 @@ def plot_metrics(metrics, output_folder, filename='results.png'):
     ax.set_xlabel('Percentage / Seconds')
     ax.set_title('Detection Metrics')
 
-    # Add the values on the bars
     for bar in bars:
         width = bar.get_width()
         ax.text(width + 1, bar.get_y() + bar.get_height() / 2, f'{width:.2f}', ha='center', va='center')

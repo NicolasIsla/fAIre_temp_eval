@@ -58,7 +58,6 @@ def main():
                 detection_data = process_files_in_folder(folder_path, output_folder, model, ignition_times, time_step)
                 all_detection_data.append(detection_data)
 
-    # Calcular y guardar métricas de detección
     for i, detection_data in enumerate(all_detection_data):
         metrics = calculate_detection_metrics(detection_data)
         results_folder = os.path.join(evaluation_folder, f'results_{i}')
