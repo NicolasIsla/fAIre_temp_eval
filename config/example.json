@@ -1,0 +1,9 @@
+{
+    "main_path": "data",
+    "output_path": "experiments",
+    "time_step": 60,
+    "model_type": "yolov8",
+    "model_version": "dummie_smoke",
+    "ignition_time_path": "data/fire_truth.json",
+    "video_folder": "dummieset"
+}
