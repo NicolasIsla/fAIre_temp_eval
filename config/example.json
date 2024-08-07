@@ -5,5 +5,6 @@
     "model_type": "yolov8",
     "model_version": "dummie_smoke",
     "ignition_time_path": "data/fire_truth.json",
-    "video_folder": "dummieset"
+    "video_folder": "dummieset",
+    "confidence_threshold": 0.5
 }

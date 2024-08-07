@@ -11,7 +11,7 @@ def calculate_detection_metrics(detection_data):
         "before_ignition_detected_percentage": (detection_data["before_ignition_detected"] / before_ignition_total) * 100 if before_ignition_total else 0,
         "after_ignition_not_detected_percentage": (detection_data["after_ignition_not_detected"] / after_ignition_total) * 100 if after_ignition_total else 0,
         "after_ignition_detected_percentage": (detection_data["after_ignition_detected"] / after_ignition_total) * 100 if after_ignition_total else 0,
-        "detection_delay_seconds": detection_data["detection_delay"]
+        "detection_delay_seconds": detection_data["detection_delay"] if detection_data["detection_delay"] is not None else 0
     }
 
     return metrics
@@ -22,7 +22,7 @@ def save_metrics_as_txt(metrics, output_folder, filename='results.txt'):
 
 def plot_metrics(metrics, output_folder, filename='results.png'):
     labels = list(metrics.keys())
-    values = list(metrics.values())
+    values = [0 if v is None else v for v in metrics.values()]
 
     fig, ax = plt.subplots(figsize=(10, 6))
     bars = ax.barh(labels, values, color='skyblue')
