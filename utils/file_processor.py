@@ -92,7 +92,6 @@ def process_files_in_folder(folder_path, output_folder, model, ignition_times, t
 
         current_time += timedelta(seconds=time_step)
 
-    # Calcular métricas y guardarlas
     metrics = calculate_detection_metrics(detection_data)
     save_metrics_as_txt(metrics, results_folder)
     plot_metrics(metrics, results_folder)
