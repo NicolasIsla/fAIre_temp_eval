@@ -118,7 +118,7 @@ def process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_
                             x_min, y_min, x_max, y_max, img_width, img_height, x_pixels
                         )
                         
-                        cv2.rectangle(img_with_boxes, (x_min, y_min), (x_max, y_max), (0, 255, 0), 2)  # Caja verde
+                        cv2.rectangle(img_with_boxes, (x_min, y_min), (x_max, y_max), (0, 255, 0), 2)
                         label = f"{class_name}: {conf:.2f}"
                         
                         cv2.putText(img_with_boxes, label, (x_min, y_min - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
@@ -126,19 +126,19 @@ def process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_
                         cropped_img = img[y_min_enlarged:y_max_enlarged, x_min_enlarged:x_max_enlarged]
                         zoom_image_path = os.path.join(zoom_folder, f'{buffer_filename[:-4]}_zoom_{class_name}.jpg')
                         cv2.imwrite(zoom_image_path, cropped_img)
+                        print(buffer_filename[:-4])
 
                         cropped_image_paths.append(zoom_image_path)
-
-                detection_image_path = os.path.join(detections_folder, f'{buffer_filename}')
-                cv2.imwrite(detection_image_path, img_with_boxes)
+                        
+                if buffer_filename == filename:
+                    detection_image_path = os.path.join(detections_folder, f'{buffer_filename}')
+                    cv2.imwrite(detection_image_path, img_with_boxes)
 
             print(f"Buffer (last {frames_back} frames): {[f[0] for f in buffer_bounding_boxes]}")
-            print()
 
             if len(cropped_image_paths) == 4:
                 lstm_prediccion = lstm_resnet_model.infer_4_frames(cropped_image_paths)
                 print(f"Predicción del LSTM para los últimos 4 frames: {lstm_prediccion}")
-
                 fire_detected = lstm_prediccion > 0.9
         
         print(f"¿Se detectó incendio? {fire_detected}")
@@ -153,7 +153,6 @@ def process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_
                 detection_data["after_ignition_detected"] += 1
                 if not detected_after_ignition and time_elapsed is not None:
                     detection_data["detection_delay"] = time_elapsed.total_seconds() // 60
-                    print()
                     print(f"Detection delay: {detection_data['detection_delay']} seconds")
                     detected_after_ignition = True
             else:
