@@ -105,7 +105,7 @@ def process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_
 
                 img_height, img_width = img.shape[:2]
                 
-                x_pixels = 200
+                x_pixels = 50
 
                 if len(confidences) > 0:
                     max_conf_index = confidences.argmax()
