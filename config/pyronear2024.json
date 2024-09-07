@@ -3,11 +3,11 @@
     "output_path": "experiments",
     "time_step": 60,
     "model_type": "yolov8",
-    "model_version": "dummie_smoke",
+    "model_version": "pyronear2024",
     "lstm_resnet_model_type": "lstm_resnet",
     "lstm_resnet_model_version": "fc0",
     "ignition_time_path": "data/fire_truth.json",
-    "video_folder": "dummieset",
-    "confidence_threshold": 0.5,
+    "video_folder": "20190529_94Fire_lp-s-mobo-c",
+    "confidence_threshold": 0.05,
     "frames_back": 3
 }
