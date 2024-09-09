@@ -152,7 +152,10 @@ def process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_
                 detection_data["before_ignition_not_detected"] += 1
                 video_state_detection.append(1)
         elif state == "AFTER IGNITION":
-            video_state_detection.append(0)
+            # añadir un 0 en la primera vez que se cambia el estado a "AFTER IGNITION"
+            # si no hay 0 en la lista de video_state_detection, se añade un 0
+            if 0 not in video_state_detection:
+                video_state_detection.append(0)
             if fire_detected:
                 detection_data["after_ignition_detected"] += 1
                 video_state_detection.append(1)
