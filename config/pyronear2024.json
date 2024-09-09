@@ -1,13 +1,13 @@
 {
-    "main_path": "data",
-    "output_path": "experiments",
+    "main_path": "/data/nisla/data/test/",
+    "output_path": "./experiments",
     "time_step": 60,
     "model_type": "yolov8",
     "model_version": "pyronear2024",
-    "lstm_resnet_model_type": "lstm_resnet",
+    "lstm_resnet_model_type": "lstm_effnet",
     "lstm_resnet_model_version": "fc0",
-    "ignition_time_path": "data/fire_truth.json",
-    "video_folder": "20190529_94Fire_lp-s-mobo-c",
+    "ignition_time_path": "./data/fire_truth.json",
+    // "video_folder": "20190529_94Fire_lp-s-mobo-c",
     "confidence_threshold": 0.05,
     "frames_back": 3
 }
