@@ -2,7 +2,6 @@ import os
 import argparse
 import json
 from datetime import datetime
-import torch
 from models.model_loader import load_model
 from utils.ignition_time import load_ignition_times
 from utils.file_processor import process_files_in_folder
@@ -29,14 +28,9 @@ def main():
     confidence_threshold = config['confidence_threshold']
     frames_back = config['frames_back']
     lstm_layers = config['n_layers']
-
-    # Determinar si hay una GPU disponible
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print(f"Using device: {device}")
-
-    # Cargar los modelos y moverlos al dispositivo
-    yolo_model = load_model(yolo_model_type, yolo_model_version).to(device)
-    lstm_resnet_model = load_model(lstm_resnet_model_type, lstm_resnet_model_version, lstm_layers).to(device)
+    # to cpu
+    yolo_model = load_model(yolo_model_type, yolo_model_version).to('cpu')
+    lstm_resnet_model = load_model(lstm_resnet_model_type, lstm_resnet_model_version, lstm_layers).to('cpu')
 
     ignition_times = load_ignition_times(ignition_time_path)
 
@@ -55,7 +49,7 @@ def main():
             print(f'Processing folder: {folder_path}')
             output_folder = os.path.join(evaluation_folder, video_folder)
             os.makedirs(output_folder)
-            detection_data = process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_model, ignition_times, time_step, confidence_threshold, frames_back, device)
+            detection_data = process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_model, ignition_times, time_step, confidence_threshold, frames_back)
     else:
         for root, dirs, files in os.walk(main_path):
             for dir_name in dirs:
@@ -63,7 +57,7 @@ def main():
                 print(f'Processing folder: {folder_path}')
                 output_folder = os.path.join(evaluation_folder, dir_name)
                 os.makedirs(output_folder)
-                detection_data = process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_model, ignition_times, time_step, confidence_threshold, frames_back, device)
+                detection_data = process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_model, ignition_times, time_step, confidence_threshold, frames_back)
                 all_detection_data.append(detection_data)
 
     print("Processing completed.")
