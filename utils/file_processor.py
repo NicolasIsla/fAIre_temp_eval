@@ -32,7 +32,7 @@ def process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_
         "total_frames": len(file_list),
         "bounding_boxes": []
     }
-    video_state_detection = []
+    video_state_detection = [folder_name]
 
     detected_after_ignition = False
     buffer_bounding_boxes = []
