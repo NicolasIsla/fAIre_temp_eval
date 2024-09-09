@@ -10,5 +10,5 @@
     "video_folder": "",
     "confidence_threshold": 0.01,
     "frames_back": 3,
-    "n_layers": 4
+    "n_layers": 2
 }
