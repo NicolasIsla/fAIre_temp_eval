@@ -118,6 +118,7 @@ def process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_
                         x_min_enlarged, y_min_enlarged, x_max_enlarged, y_max_enlarged = enlarge_bounding_box(
                             x_min, y_min, x_max, y_max, img_width, img_height, x_pixels
                         )
+                        fire_detected = True # solo yolo
                         
                         cv2.rectangle(img_with_boxes, (x_min, y_min), (x_max, y_max), (0, 255, 0), 2)
                         label = f"{class_name}: {conf:.2f}"
@@ -135,12 +136,12 @@ def process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_
                     detection_image_path = os.path.join(detections_folder, f'{buffer_filename}')
                     cv2.imwrite(detection_image_path, img_with_boxes)
 
-            print(f"Buffer (last {frames_back} frames): {[f[0] for f in buffer_bounding_boxes]}")
+            # print(f"Buffer (last {frames_back} frames): {[f[0] for f in buffer_bounding_boxes]}")
 
-            if len(cropped_image_paths) == 4:
-                lstm_prediccion = lstm_resnet_model.infer_4_frames(cropped_image_paths)
-                print(f"Predicción del LSTM para los últimos 4 frames: {lstm_prediccion}")
-                fire_detected = lstm_prediccion > 0.5
+            # if len(cropped_image_paths) == 4:
+            #     lstm_prediccion = lstm_resnet_model.infer_4_frames(cropped_image_paths)
+            #     print(f"Predicción del LSTM para los últimos 4 frames: {lstm_prediccion}")
+            #     fire_detected = lstm_prediccion > 0.5
         
         print(f"¿Se detectó incendio? {fire_detected}")
 
