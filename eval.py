@@ -27,7 +27,7 @@ def main():
     video_folder = config['video_folder']
     confidence_threshold = config['confidence_threshold']
     frames_back = config['frames_back']
-    lstm_layers = config['lstm_layers']
+    lstm_layers = config['n_layers']
 
     yolo_model = load_model(yolo_model_type, yolo_model_version)
     lstm_resnet_model = load_model(lstm_resnet_model_type, lstm_resnet_model_version, lstm_layers)
