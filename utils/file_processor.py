@@ -140,7 +140,7 @@ def process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_
             if len(cropped_image_paths) == 4:
                 lstm_prediccion = lstm_resnet_model.infer_4_frames(cropped_image_paths)
                 print(f"Predicción del LSTM para los últimos 4 frames: {lstm_prediccion}")
-                fire_detected = lstm_prediccion > 0.9
+                fire_detected = lstm_prediccion > 0.5
         
         print(f"¿Se detectó incendio? {fire_detected}")
 
