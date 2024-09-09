@@ -15,7 +15,7 @@ def load_model(model_type='yolov8', model_version='dummie_smoke.pt', lstm_layers
     elif model_type == 'lstm_effnet':
         print(f'models/lstm_effnet/{model_version}.ckpt')
         print(lstm_layers)
-        return FireClassifierv2(lstm_layers=lstm_layers).load_from_checkpoint(f'models/lstm_effnet/{model_version}.ckpt')
+        return FireClassifierv2.load_from_checkpoint(f'models/lstm_effnet/{model_version}.ckpt', lstm_layers=lstm_layers)
     else:
         raise ValueError(f"Model {model_type} not supported")
 
