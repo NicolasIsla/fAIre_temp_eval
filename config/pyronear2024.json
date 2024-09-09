@@ -1,5 +1,5 @@
 {
-    "main_path": "/home/nisla/fAIre_temp_eval/data/",
+    "main_path": "/data/nisla/figlib/",
     "output_path": "./experiments",
     "time_step": 60,
     "model_type": "yolov8",

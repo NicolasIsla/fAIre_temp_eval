@@ -36,10 +36,6 @@
         "ignition_time": "22:09"
     },
     {
-        "folder": "20160722_FIRE_mg-s-iqeye",
-        "ignition_time": "00:28"
-    },
-    {
         "folder": "20160722_FIRE_mw-e-mobo-c",
         "ignition_time": "23:42"
     },
@@ -136,19 +132,6 @@
         "ignition_time": "23:23"
     },
     {
-        "folder": "20170722_FIRE_bm-n-mobo-c",
-        "ignition_time": "00:18"
-    },
-    {
-        "folder": "20170722_FIRE_hp-e-mobo-c",
-        "ignition_time": "00:11"
-    },
-    {
-        "folder": "20170722_FIRE_mg-n-iqeye",
-        "ignition_time": "00:12"
-    },
-
-    {
         "folder": "20170807_FIRE_bh-n-mobo-c",
         "ignition_time": "23:32"
     },
@@ -161,24 +144,8 @@
         "ignition_time": "20:45"
     },
     {
-        "folder": "20170901_FIRE_om-s-mobo-c",
-        "ignition_time": "00:04"
-    },
-    {
         "folder": "20170927_FIRE_smer-tcs9-mobo-c",
         "ignition_time": "23:49"
-    },
-    {
-        "folder": "20171010_FIRE_hp-n-mobo-c",
-        "ignition_time": "00:01"
-    },
-    {
-        "folder": "20171010_FIRE_hp-w-mobo-c",
-        "ignition_time": "00:02"
-    },
-    {
-        "folder": "20171010_FIRE_rm-e-mobo-c",
-        "ignition_time": "00:01"
     },
     {
         "folder": "20171016_FIRE_sdsc-e-mobo-c",
@@ -224,7 +191,6 @@
         "folder": "20180504_FIRE_rm-n-mobo-c",
         "ignition_time": "23:49"
     },
-  
     {
         "folder": "20180504_FIRE_smer-tcs8-mobo-c",
         "ignition_time": "23:41"
@@ -232,10 +198,6 @@
     {
         "folder": "20180517_FIRE_rm-n-mobo-c",
         "ignition_time": "23:50"
-    },
-    {
-        "folder": "20180517_FIRE_smer-tcs10-mobo-c",
-        "ignition_time": "00:04"
     },
     {
         "folder": "20180522_FIRE_rm-e-mobo-c",
@@ -248,18 +210,6 @@
     {
         "folder": "20180602_Alison_sp-w-mobo-c",
         "ignition_time": "22:06"
-    },
-    {
-        "folder": "20180602_FIRE_rm-n-mobo-c",
-        "ignition_time": "00:34"
-    },
-    {
-        "folder": "20180602_FIRE_smer-tcs8-mobo-c",
-        "ignition_time": "00:25"
-    },
-    {
-        "folder": "20180602_FIRE_smer-tcs9-mobo-c",
-        "ignition_time": "00:25"
     },
     {
         "folder": "20180603_FIRE_bl-s-mobo-c",
@@ -306,16 +256,8 @@
         "ignition_time": "19:02"
     },
     {
-        "folder": "20180611_fallbrook_rm-w-mobo-c",
-        "ignition_time": "00:51"
-    },
-    {
-        "folder": "20180612_FIRE_rm-w-mobo-c",
-        "ignition_time": "00:06"
-    },
-    {
-        "folder": "20180612_FIRE_smer-tcs9-mobo-c",
-        "ignition_time": "00:08"
+        "folder": "20180614_Bridle_hp-n-mobo-c",
+        "ignition_time": "02:03"
     },
     {
         "folder": "20180614_Bridle_hp-n-mobo-c",
@@ -356,10 +298,6 @@
     {
         "folder": "20180718_FIRE_syp-w-mobo-c",
         "ignition_time": "21:02"
-    },
-    {
-        "folder": "20180719_Skyline_sp-n-mobo-c",
-        "ignition_time": "00:33"
     },
     {
         "folder": "20180720_Cinnamon_wc-e-mobo-c",
@@ -414,14 +352,6 @@
         "ignition_time": "22:37"
     },
     {
-        "folder": "20180728_FIRE_rm-w-mobo-c",
-        "ignition_time": "00:08"
-    },
-    {
-        "folder": "20180728_FIRE_smer-tcs9-mobo-c",
-        "ignition_time": "00:18"
-    },
-    {
         "folder": "20180806_FIRE_mg-s-mobo-c",
         "ignition_time": "19:27"
     },
@@ -450,18 +380,6 @@
         "ignition_time": "22:11"
     },
     {
-        "folder": "20180813_FIRE_bh-s-mobo-c",
-        "ignition_time": "23:54"
-    },
-    {
-        "folder": "20180813_FIRE_bl-n-mobo-c",
-        "ignition_time": "23:55"
-    },
-    {
-        "folder": "20180813_FIRE_mg-w-mobo-c",
-        "ignition_time": "23:52"
-    },
-    {
         "folder": "20180827_Holyflareup_sp-e-mobo-c",
         "ignition_time": "17:56"
     },
@@ -470,129 +388,8 @@
         "ignition_time": "22:10"
     },
     {
-        "folder": "20180919_FIRE_rm-e-mobo-c",
-        "ignition_time": "00:18"
-    },
-    {
-        "folder": "20181112_house_wc-n-mobo-c",
-        "ignition_time": "22:07"
-    },
-
-    {
-        "folder": "20190529_94Fire_om-n-mobo-c",
-        "ignition_time": "00:04"
-    },
-    {
-        "folder": "20190610_FIRE_bh-w-mobo-c",
-        "ignition_time": "22:25"
-    },
-    {
-        "folder": "20190610_Pauma_bh-w-mobo-c",
-        "ignition_time": "22:25"
-    },
-    {
-        "folder": "20190610_Pauma_bh-w-mobo-m",
-        "ignition_time": "22:23"
-    },
-    {
-        "folder": "20190620_FIRE_rm-w-mobo-c",
-        "ignition_time": "23:17"
-    },
-    {
-        "folder": "20190620_FIRE_smer-tcs9-mobo-c",
-        "ignition_time": "23:20"
-    },
-    {
-        "folder": "20190629_FIRE_hp-n-mobo-c",
-        "ignition_time": "20:34"
-    },
-    {
-        "folder": "20190712_FIRE_om-e-mobo-c",
-        "ignition_time": "19:10"
-    },
-    {
-        "folder": "20190712_RockHouse_wc-e-mobo-c",
-        "ignition_time": "21:24"
-    },
-    {
-        "folder": "20190714_MLOSouth_lo-s-mobo-c",
-        "ignition_time": "22:11"
-    },
-    {
-        "folder": "20190714_PinosSouth_pi-s-mobo-c",
-        "ignition_time": "18:46"
-    },
-    {
-        "folder": "20190715_MLOSouth1_lo-s-mobo-c",
-        "ignition_time": "21:04"
-    },
-    {
-        "folder": "20190715_MLOSouth2_lo-s-mobo-c",
-        "ignition_time": "21:53"
-    },
-    {
-        "folder": "20190715_MLOSouth3_lo-s-mobo-c",
-        "ignition_time": "23:05"
-    },
-    {
-        "folder": "20190716_FIRE_bl-s-mobo-c",
-        "ignition_time": "21:45"
-    },
-    {
-        "folder": "20190716_FIRE_mg-n-mobo-c",
-        "ignition_time": "22:23"
-    },
-    {
-        "folder": "20190716_FIRE_so-w-mobo-c",
-        "ignition_time": "22:22"
-    },
-    {
-        "folder": "20190716_Meadowfire_hp-n-mobo-c",
-        "ignition_time": "21:54"
-    },
-    {
-        "folder": "20190717_FIRE_lp-n-mobo-c",
-        "ignition_time": "00:49"
-    },
-    {
-        "folder": "20190717_FIRE_pi-w-mobo-c",
-        "ignition_time": "00:50"
-    },
-    {
-        "folder": "20190728_Dehesa_lp-n-mobo",
-        "ignition_time": "02:55"
-    },
-    {
-        "folder": "20190728_FIRE_om-n-mobo-c",
-        "ignition_time": "03:11"
-    },
-    {
-        "folder": "20190728_FIRE_sp-n-mobo-c",
-        "ignition_time": "22:22"
-    },
-    {
-        "folder": "20190801_Caliente_om-w-mobo",
-        "ignition_time": "20:48"
-    },
-    {
-        "folder": "20190803_OtaySouth_lp-s-mobo",
-        "ignition_time": "00:09"
-    },
-    {
-        "folder": "20190803_OtaySouth_om-s-mobo",
-        "ignition_time": "00:07"
-    },
-    {
-        "folder": "20190803_Sage_om-n-mobo",
-        "ignition_time": "22:01"
-    },
-    {
-        "folder": "20190805_FIRE_sp-e-mobo-c",
-        "ignition_time": "23:25"
-    },
-    {
-        "folder": "20190809_PinosSouth_pi-s-mobo",
-        "ignition_time": "19:39"
+        "folder": "20180825_FIRE-smer-tcs8-mobo-c",
+        "ignition_time": "20:12"
     },
     {
         "folder": "20190810_SantaFire_rm-w-mobo",
@@ -603,332 +400,20 @@
         "ignition_time": "23:20"
     },
     {
-        "folder": "20190813_Topanga_69bravo-n-mobo",
-        "ignition_time": "23:20"
-    },
-    {
         "folder": "20190814_Border_lp-s-mobo",
         "ignition_time": "00:00"
-    },
-    {
-        "folder": "20190814_FIRE-pi-s-mobo-c",
-        "ignition_time": "00:46"
-    },
-    {
-        "folder": "20190814_FIRE_om-e-mobo-c",
-        "ignition_time": "23:58"
-    },
-    {
-        "folder": "20190825_FIRE-smer-tcs8-mobo-c",
-        "ignition_time": "20:12"
-    },
-    {
-        "folder": "20190825_FIRE_sm-w-mobo-c",
-        "ignition_time": "23:27"
-    },
-    {
-        "folder": "20190826_FIRE_pi-s-mobo-c",
-        "ignition_time": "19:17"
     },
     {
         "folder": "20190826_FIRE_rm-w-mobo-c",
         "ignition_time": "21:45"
     },
     {
-        "folder": "20190826_FIRE_smer-tcs9-mobo-c",
-        "ignition_time": "21:53"
-    },
-    {
-        "folder": "20190827_FIRE_so-w-mobo-c",
-        "ignition_time": "19:28"
-    },
-    {
-        "folder": "20190829_FIRE_bl-n-mobo-c",
-        "ignition_time": "01:13"
-    },
-    {
-        "folder": "20190829_FIRE_rm-w-mobo-c",
-        "ignition_time": "19:49"
-    },
-    {
-        "folder": "20190829_FIRE_smer-tcs8-mobo-c",
-        "ignition_time": "19:09"
-    },
-    {
-        "folder": "20190913_FIRE_lp-n-mobo-c",
-        "ignition_time": "02:10"
-    },
-    {
-        "folder": "20190915_FIRE_rm-n-mobo-c",
-        "ignition_time": "23:28"
-    },
-    {
-        "folder": "20190922_FIRE_ml-w-mobo-c",
-        "ignition_time": "22:29"
-    },
-    {
-        "folder": "20190924_FIRE_bl-s-mobo-c",
-        "ignition_time": "00:01"
-    },
-    {
-        "folder": "20190924_FIRE_hp-s-mobo-c",
-        "ignition_time": "00:08"
-    },
-    {
-        "folder": "20190924_FIRE_lo-w-mobo-c",
-        "ignition_time": "23:57"
-    },
-    {
-        "folder": "20190924_FIRE_lp-n-mobo-c",
-        "ignition_time": "23:57"
-    },
-    {
-        "folder": "20190924_FIRE_ml-w-mobo-c",
-        "ignition_time": "00:00"
-    },
-    {
-        "folder": "20190924_FIRE_pi-w-mobo-c",
-        "ignition_time": "23:56"
-    },
-    {
-        "folder": "20190924_FIRE_sm-n-mobo-c",
-        "ignition_time": "23:58"
-    },
-    {
-        "folder": "20190924_FIRE_wc-e-mobo-c",
-        "ignition_time": "00:10"
-    },
-    {
-        "folder": "20190924_FIRE_wc-s-mobo-c",
-        "ignition_time": "00:07"
-    },
-    {
-        "folder": "20190925_FIRE_wc-e-mobo-c",
-        "ignition_time": "22:17"
-    },
-    {
-        "folder": "20190925_FIRE_wc-s-mobo-c",
-        "ignition_time": "22:15"
-    },
-    {
         "folder": "20190930_FIRE_om-s-mobo-c",
         "ignition_time": "22:58"
     },
     {
-        "folder": "20191001_FIRE_bh-w-mobo-c",
-        "ignition_time": "22:40"
-    },
-    {
-        "folder": "20191001_FIRE_lp-s-mobo-c",
-        "ignition_time": "20:03"
-    },
-    {
-        "folder": "20191001_FIRE_om-e-mobo-c",
-        "ignition_time": "19:59"
-    },
-    {
-        "folder": "20191001_FIRE_om-s-mobo-c",
-        "ignition_time": "18:19"
-    },
-    {
-        "folder": "20191001_FIRE_rm-w-mobo-c",
-        "ignition_time": "20:51"
-    },
-    {
-        "folder": "20191001_FIRE_smer-tcs9-mobo-c",
-        "ignition_time": "20:10"
-    },
-    {
-        "folder": "20191003_FIRE_om-s-mobo-c",
-        "ignition_time": "00:41"
-    },
-    {
-        "folder": "20191003_FIRE_rm-w-mobo-c",
-        "ignition_time": "20:07"
-    },
-    {
-        "folder": "20191003_FIRE_smer-tcs9-mobo-c",
-        "ignition_time": "20:06"
-    },
-    {
-        "folder": "20191005_FIRE_bm-e-mobo-c",
-        "ignition_time": "23:18"
-    },
-    {
-        "folder": "20191005_FIRE_hp-s-mobo-c",
-        "ignition_time": "23:01"
-    },
-    {
-        "folder": "20191005_FIRE_vo-n-mobo-c",
-        "ignition_time": "23:18"
-    },
-    {
-        "folder": "20191005_FIRE_wc-e-mobo-c",
-        "ignition_time": "23:19"
-    },
-    {
-        "folder": "20191005_FIRE_wc-n-mobo-c",
-        "ignition_time": "23:21"
-    },
-    {
-        "folder": "20191006_FIRE_lo-s-mobo-c",
-        "ignition_time": "20:18"
-    },
-    {
-        "folder": "20191006_FIRE_lo-w-mobo-c",
-        "ignition_time": "19:51"
-    },
-    {
-        "folder": "20191006_FIRE_lp-e-mobo-c",
-        "ignition_time": "20:30"
-    },
-    {
-        "folder": "20191006_FIRE_lp-n-mobo-c",
-        "ignition_time": "19:50"
-    },
-    {
-        "folder": "20191006_FIRE_lp-s-mobo-c",
-        "ignition_time": "20:26"
-    },
-    {
-        "folder": "20191006_FIRE_ml-w-mobo-c",
-        "ignition_time": "19:49"
-    },
-    {
-        "folder": "20191006_FIRE_om-n-mobo-c",
-        "ignition_time": "19:51"
-    },
-    {
-        "folder": "20191006_FIRE_om-s-mobo-c",
-        "ignition_time": "19:10"
-    },
-    {
-        "folder": "20191006_FIRE_pi-s-mobo-c",
-        "ignition_time": "20:16"
-    },
-    {
-        "folder": "20191007_FIRE_lp-s-mobo-c",
-        "ignition_time": "22:35"
-    },
-    {
-        "folder": "20191007_FIRE_om-s-mobo-c",
-        "ignition_time": "22:34"
-    },
-    {
-        "folder": "20191007_FIRE_sm-s-mobo-c",
-        "ignition_time": "21:26"
-    },
-    {
-        "folder": "20191030_CopperCanyon_om-s-mobo-c",
-        "ignition_time": "05:57"
-    },
-    {
-        "folder": "20191030_CopperCanyon_om-s-mobo-m",
-        "ignition_time": "05:57"
-    },
-    {
-        "folder": "20200202_FIRE_hp-w-mobo-c",
-        "ignition_time": "19:17"
-    },
-    {
-        "folder": "20200205_FIRE_hp-w-mobo-c",
-        "ignition_time": "19:26"
-    },
-    {
-        "folder": "20200206_FIRE_ml-s-mobo-c",
-        "ignition_time": "18:47"
-    },
-    {
-        "folder": "20200226_FIRE_rm-e-mobo-c",
-        "ignition_time": "19:46"
-    },
-    {
-        "folder": "20200304_FIRE_rm-w-mobo-c",
-        "ignition_time": "19:04"
-    },
-    {
-        "folder": "20200306_FIRE_ml-s-mobo-c",
-        "ignition_time": "18:35"
-    },
-    {
-        "folder": "20200306_FIRE_mlo-n-mobo-c",
-        "ignition_time": "18:31"
-    },
-    {
-        "folder": "20200306_FIRE_pi-n-mobo-c",
-        "ignition_time": "18:43"
-    },
-    {
-        "folder": "20200521_FIRE_om-n-mobo-c",
-        "ignition_time": "00:18"
-    },
-    {
-        "folder": "20200521_FIRE_om-s-mobo-c",
-        "ignition_time": "18:42"
-    },
-    {
-        "folder": "20200521_FIRE_om-w-mobo-c",
-        "ignition_time": "00:20"
-    },
-    {
-        "folder": "20200521_VEGMGMT_bm-s-mobo-c",
-        "ignition_time": "19:28"
-    },
-    {
-        "folder": "20200521_VEGMGMT_ml-w-mobo-c",
-        "ignition_time": "19:09"
-    },
-    {
-        "folder": "20200521_VEGMGMT_wc-e-mobo-c",
-        "ignition_time": "19:09"
-    },
-    {
-        "folder": "20200529_StructFire_wc-e-mobo-c",
-        "ignition_time": "01:32"
-    },
-    {
-        "folder": "20200601_WILDLAND-DRILLS_ml-s-mobo-c",
-        "ignition_time": "22:54"
-    },
-    {
-        "folder": "20200601_WILDLAND-DRILLS_mlo-e-mobo-c",
-        "ignition_time": "22:53"
-    },
-    {
-        "folder": "20200601_WILDLAND-DRILLS_mlo-s-mobo-c",
-        "ignition_time": "22:53"
-    },
-    {
-        "folder": "20200601_WILDLAND-DRILLS_om-e-mobo-c",
-        "ignition_time": "22:54"
-    },
-    {
-        "folder": "20200601_WILDLAND-DRILLS_pi-e-mobo-c",
-        "ignition_time": "22:54"
-    },
-    {
         "folder": "20200611_skyline_lp-n-mobo-c",
         "ignition_time": "20:38"
-    },
-    {
-        "folder": "20200614_DrumCanyon_syp-w-mobo-c",
-        "ignition_time": "21:51"
-    },
-    {
-        "folder": "20200615_Rainbow_rm-e-mobo-c",
-        "ignition_time": "22:38"
-    },
-    {
-        "folder": "20200618_FIRE_om-w-mobo-c",
-        "ignition_time": "00:25"
-    },
-    {
-        "folder": "20200705_FIRE_bm-w-mobo-c",
-        "ignition_time": "23:08"
-    },
-    {
-        "folder": "20200705_FIRE_wc-n-mobo-c",
-        "ignition_time": "23:07"
     },
     {
         "folder": "20200709_Tripp_hp-n-mobo-c",
@@ -937,297 +422,6 @@
     {
         "folder": "20200712_USSBonhommeRichard_sm-w-mobo-c",
         "ignition_time": "18:32"
-    },
-    {
-        "folder": "20200727_Border11Fire_lp-s-mobo-c",
-        "ignition_time": "05:25"
-    },
-    {
-        "folder": "20200727_Border11Fire_lp-s-mobo-m",
-        "ignition_time": "05:25"
-    },
-    {
-        "folder": "20200727_Border11Fire_om-e-mobo-c",
-        "ignition_time": "05:25"
-    },
-    {
-        "folder": "20200727_Border11Fire_om-e-mobo-m",
-        "ignition_time": "05:25"
-    },
-    {
-        "folder": "20200806_BorderFire_lp-s-mobo-c",
-        "ignition_time": "18:00"
-    },
-    {
-        "folder": "20200806_BorderFire_om-e-mobo-c",
-        "ignition_time": "17:59"
-    },
-    {
-        "folder": "20200806_SpringsFire_lp-w-mobo-c",
-        "ignition_time": "03:34"
-    },
-    {
-        "folder": "20200806_SpringsFire_lp-w-mobo-m",
-        "ignition_time": "03:33"
-    },
-    {
-        "folder": "20200806_SpringsFire_om-n-mobo-c",
-        "ignition_time": "03:36"
-    },
-    {
-        "folder": "20200806_SpringsFire_om-n-mobo-m",
-        "ignition_time": "03:36"
-    },
-    {
-        "folder": "20200806_SpringsFire_sm-e-mobo-c",
-        "ignition_time": "03:39"
-    },
-    {
-        "folder": "20200806_SpringsFire_sm-e-mobo-m",
-        "ignition_time": "03:38"
-    },
-    {
-        "folder": "20200807_AppleFire-backfire-operation_hp-n-mobo-c",
-        "ignition_time": "18:43"
-    },
-    {
-        "folder": "20200808_OliveFire_wc-e-mobo-c",
-        "ignition_time": "19:54"
-    },
-    {
-        "folder": "20200812_LakeFire_dwpgm-n-mobo-c",
-        "ignition_time": "00:38"
-    },
-    {
-        "folder": "20200813_Ranch2Fire_marconi-n-mobo-c",
-        "ignition_time": "00:37"
-    },
-    {
-        "folder": "20200813_Ranch2Fire_sjh-n-mobo-c",
-        "ignition_time": "00:36"
-    },
-    {
-        "folder": "20200813_Ranch2Fire_wilson-e-mobo-c",
-        "ignition_time": "23:59"
-    },
-    {
-        "folder": "20200813_SkylineFire_sp-n-mobo-c",
-        "ignition_time": "00:20"
-    },
-    {
-        "folder": "20200813_VictoriaFire_lp-n-mobo-c",
-        "ignition_time": "01:33"
-    },
-    {
-        "folder": "20200822_BrattonFire_lp-e-mobo-c",
-        "ignition_time": "21:56"
-    },
-    {
-        "folder": "20200822_BrattonFire_lp-s-mobo-c",
-        "ignition_time": "21:57"
-    },
-    {
-        "folder": "20200822_SloaneFire_lp-n-mobo-c",
-        "ignition_time": "22:58"
-    },
-    {
-        "folder": "20200822_SloaneFire_lp-w-mobo-c",
-        "ignition_time": "22:57"
-    },
-    {
-        "folder": "20200823_OakFire_pi-e-mobo-c",
-        "ignition_time": "23:12"
-    },
-    {
-        "folder": "20200828_BorderFire_om-w-mobo-c",
-        "ignition_time": "17:52"
-    },
-    {
-        "folder": "20200828_BorderFire_sm-s-mobo-c",
-        "ignition_time": "17:46"
-    },
-    {
-        "folder": "20200829_inside-Mexico_cp-s-mobo-c",
-        "ignition_time": "19:58"
-    },
-    {
-        "folder": "20200829_inside-Mexico_mlo-s-mobo-c",
-        "ignition_time": "19:55"
-    },
-    {
-        "folder": "20200829_inside-Mexico_om-e-mobo-c",
-        "ignition_time": "19:55"
-    },
-    {
-        "folder": "20200829_inside-Mexico_pi-s-mobo-c",
-        "ignition_time": "19:42"
-    },
-    {
-        "folder": "20200831_FIRE_wc-n-mobo-c",
-        "ignition_time": "22:56"
-    },
-    {
-        "folder": "20200905_ValleyFire_lp-n-mobo-c",
-        "ignition_time": "23:27"
-    },
-    {
-        "folder": "20200905_ValleyFire_pi-w-mobo-c",
-        "ignition_time": "23:28"
-    },
-    {
-        "folder": "20200905_ValleyFire_sm-e-mobo-c",
-        "ignition_time": "23:30"
-    },
-    {
-        "folder": "20200911_FIRE_lp-e-mobo-c",
-        "ignition_time": "21:50"
-    },
-    {
-        "folder": "20200911_FIRE_mlo-s-mobo-c",
-        "ignition_time": "21:51"
-    },
-    {
-        "folder": "20200911_FIRE_pi-s-mobo-c",
-        "ignition_time": "21:52"
-    },
-    {
-        "folder": "20200930_BoundaryFire_wc-e-mobo-c",
-        "ignition_time": "19:49"
-    },
-    {
-        "folder": "20200930_DeLuzFire_rm-w-mobo-c",
-        "ignition_time": "21:23"
-    },
-    {
-        "folder": "20200930_inMexico_lp-s-mobo-c",
-        "ignition_time": "21:30"
-    },
-    {
-        "folder": "20200930_inMexico_om-e-mobo-c",
-        "ignition_time": "21:30"
-    },
-    {
-        "folder": "20201003_structurefire_bh-w-mobo-c",
-        "ignition_time": "11:44"
-    },
-    {
-        "folder": "20201003_structurefire_bm-w-mobo-c",
-        "ignition_time": "11:47"
-    },
-    {
-        "folder": "20201013_FIRE_cp-s-mobo-c",
-        "ignition_time": "01:46"
-    },
-    {
-        "folder": "20201105_Roundfire_lp-s-mobo-c",
-        "ignition_time": "23:20"
-    },
-    {
-        "folder": "20201105_Roundfire_om-e-mobo-c",
-        "ignition_time": "23:17"
-    },
-    {
-        "folder": "20201105_Roundfire_pi-s-mobo-c",
-        "ignition_time": "23:20"
-    },
-    {
-        "folder": "20201127_Hawkfire_pi-w-mobo-c",
-        "ignition_time": "21:52"
-    },
-    {
-        "folder": "20201202_WillowFire-nightime-near-CDF-HQ_lp-w-mobo-c",
-        "ignition_time": "07:11"
-    },
-    {
-        "folder": "20201202_WillowFire-nightime-near-CDF-HQ_om-n-mobo-c",
-        "ignition_time": "07:12"
-    },
-    {
-        "folder": "20201202_WillowFire-nightime-near-CDF-HQ_sm-n-mobo-c",
-        "ignition_time": "06:58"
-    },
-    {
-        "folder": "20201205_typical-range-fire_sclm-e-mobo-c",
-        "ignition_time": "19:24"
-    },
-    {
-        "folder": "20201206_JEEP-ON-FIRE_om-w-mobo-c",
-        "ignition_time": "10:44"
-    },
-    {
-        "folder": "20201207_La_bh-s-mobo-c",
-        "ignition_time": "07:34"
-    },
-    {
-        "folder": "20201208_FIRE_om-s-mobo-c",
-        "ignition_time": "22:28"
-    },
-    {
-        "folder": "20201216_ChaparralFire_lp-w-mobo-c",
-        "ignition_time": "22:34"
-    },
-    {
-        "folder": "20201216_ChaparralFire_om-n-mobo-c",
-        "ignition_time": "22:38"
-    },
-    {
-        "folder": "20201216_ChaparralFire_pi-w-mobo-c",
-        "ignition_time": "22:35"
-    },
-    {
-        "folder": "20201216_ChaparralFire_sm-n-mobo-c",
-        "ignition_time": "22:35"
-    },
-    {
-        "folder": "20201223_Creekfire_bh-w-mobo-c",
-        "ignition_time": "08:02"
-    },
-    {
-        "folder": "20210107_Miguelfire_om-w-mobo-c",
-        "ignition_time": "19:32"
-    },
-    {
-        "folder": "20210110_Borderfire_lp-s-mobo-c",
-        "ignition_time": "20:02"
-    },
-    {
-        "folder": "20210113_Borderfire_mlo-s-mobo-c",
-        "ignition_time": "22:08"
-    },
-    {
-        "folder": "20210113_Borderfire_pi-s-mobo-c",
-        "ignition_time": "22:12"
-    },
-    {
-        "folder": "20210115_Bonitafire_tp-w-mobo-c",
-        "ignition_time": "10:07"
-    },
-    {
-        "folder": "20210204_FIRE_tp-s-mobo-c",
-        "ignition_time": "20:18"
-    },
-    {
-        "folder": "20210209_FIRE_hp-e-mobo-c",
-        "ignition_time": "19:03"
-    },
-    {
-        "folder": "20210209_FIRE_tp-w-mobo-c",
-        "ignition_time": "19:17"
-    },
-    {
-        "folder": "20210302_FIRE_lp-e-mobo-c",
-        "ignition_time": "11:05"
-    },
-    {
-        "folder": "20210302_FIRE_lp-e-mobo-m",
-        "ignition_time": "11:05"
-    },
-    {
-        "folder": "20210319_FIRE_om-n-mobo-c",
-        "ignition_time": "04:44"
-    },
-    {
-        "folder": "20210711_FIRE_wc-e-mobo-c",
-        "ignition_time": "19:59"
     }
 ]
+
