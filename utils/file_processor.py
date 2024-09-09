@@ -32,6 +32,7 @@ def process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_
         "total_frames": len(file_list),
         "bounding_boxes": []
     }
+    video_state_detection = []
 
     detected_after_ignition = False
     buffer_bounding_boxes = []
@@ -146,18 +147,22 @@ def process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_
         if state == "BEFORE IGNITION":
             if fire_detected:
                 detection_data["before_ignition_detected"] += 1
+                video_state_detection.append(-1)
             else:
                 detection_data["before_ignition_not_detected"] += 1
+                video_state_detection.append(1)
         elif state == "AFTER IGNITION":
+            video_state_detection.append(0)
             if fire_detected:
                 detection_data["after_ignition_detected"] += 1
+                video_state_detection.append(1)
                 if not detected_after_ignition and time_elapsed is not None:
                     detection_data["detection_delay"] = time_elapsed.total_seconds() // 60
                     print(f"Detection delay: {detection_data['detection_delay']} seconds")
                     detected_after_ignition = True
             else:
                 detection_data["after_ignition_not_detected"] += 1
-
+                video_state_detection.append(-1)
             buffer_bounding_boxes.clear()
             clear_buffer_folder(zoom_folder)
 
@@ -168,4 +173,4 @@ def process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_
     save_metrics_as_txt(metrics, results_folder)
     plot_metrics(metrics, results_folder)
 
-    return detection_data
+    return detection_data, video_state_detection

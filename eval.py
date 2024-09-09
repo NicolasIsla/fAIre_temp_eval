@@ -42,14 +42,14 @@ def main():
     os.makedirs(evaluation_folder)
 
     all_detection_data = []
-
+    state_all_videos = []
     if video_folder:
         folder_path = os.path.join(main_path, video_folder)
         if os.path.exists(folder_path):
             print(f'Processing folder: {folder_path}')
             output_folder = os.path.join(evaluation_folder, video_folder)
             os.makedirs(output_folder)
-            detection_data = process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_model, ignition_times, time_step, confidence_threshold, frames_back)
+            detection_data, video = process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_model, ignition_times, time_step, confidence_threshold, frames_back)
     else:
         for root, dirs, files in os.walk(main_path):
             for dir_name in dirs:
@@ -57,10 +57,15 @@ def main():
                 print(f'Processing folder: {folder_path}')
                 output_folder = os.path.join(evaluation_folder, dir_name)
                 os.makedirs(output_folder)
-                detection_data = process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_model, ignition_times, time_step, confidence_threshold, frames_back)
+                detection_data, video = process_files_in_folder(folder_path, output_folder, yolo_model, lstm_resnet_model, ignition_times, time_step, confidence_threshold, frames_back)
                 all_detection_data.append(detection_data)
+                state_all_videos.append(video)
 
     print("Processing completed.")
+    # save  state all videos
+    with open(os.path.join(evaluation_folder, 'state_all_videos.json'), 'w') as f:
+        json.dump(state_all_videos, f, indent=4)
+
 
 if __name__ == "__main__":
     main()
