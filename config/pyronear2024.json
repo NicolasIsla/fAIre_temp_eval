@@ -8,7 +8,7 @@
     "lstm_resnet_model_version": "v1",
     "ignition_time_path": "./data/fires_detection.json",
     "video_folder": "",
-    "confidence_threshold": 0.01,
+    "confidence_threshold": 0.06,
     "frames_back": 3,
     "n_layers": 2
 }
