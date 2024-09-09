@@ -16,7 +16,7 @@ class FireClassifierv2(pl.LightningModule):
         self.resize = transforms.Resize((112, 112))
         self.to_tensor = transforms.ToTensor()
         self.normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
-        
+
         # Usamos EfficientNetB3 como extractor de características.
         efficientnet = create_model('efficientnet_b3', pretrained=True)
 
@@ -70,5 +70,8 @@ class FireClassifierv2(pl.LightningModule):
         self.eval()
         with torch.no_grad():
             output = self(input_tensor)
+            print(output.shape)
+            # retornar el ultimo valor de la secuencia
+            output = output[0, -1, 0]
             pred = torch.sigmoid(output).item()
             return pred
