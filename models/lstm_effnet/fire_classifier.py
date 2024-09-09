@@ -53,6 +53,7 @@ class FireClassifierv2(pl.LightningModule):
         # x = self.dropout(x)
         x = self.classifier(x)
         return x
+    
 
     def preprocess_image(self, img):
         img = self.resize(img)

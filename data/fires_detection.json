@@ -1,0 +1,194 @@
+[
+    {
+        "folder": "20160711_FIRE_ml-n-mobo-c",
+        "ignition_time": "21:42"
+    },
+    {
+        "folder": "20160722_FIRE_mw-e-mobo-c",
+        "ignition_time": "23:42"
+    },
+    {
+        "folder": "20170520_FIRE_lp-s-iqeye",
+        "ignition_time": "20:19"
+    },
+    {
+        "folder": "20170625_BBM_bm-n-mobo",
+        "ignition_time": "20:53"
+    },
+    {
+        "folder": "20170708_Whittier_syp-n-mobo-c",
+        "ignition_time": "22:41"
+    },
+    {
+        "folder": "20170722_FIRE_so-s-mobo-c",
+        "ignition_time": "00:10"
+    },
+    {
+        "folder": "20180504_FIRE_smer-tcs10-mobo-c",
+        "ignition_time": "00:09"
+    },
+    {
+        "folder": "20180504_FIRE_smer-tcs8-mobo-c",
+        "ignition_time": "23:41"
+    },
+    {
+        "folder": "20180603_FIRE_sm-w-mobo-c",
+        "ignition_time": "01:10"
+    },
+    {
+        "folder": "20180726_FIRE_so-w-mobo-c",
+        "ignition_time": "18:43"
+    },
+    {
+        "folder": "20180806_FIRE_mg-s-mobo-c",
+        "ignition_time": "19:27"
+    },
+    {
+        "folder": "20180809_FIRE_mg-w-mobo-c",
+        "ignition_time": "22:11"
+    },
+    {
+        "folder": "20190529_94Fire_lp-s-mobo-c",
+        "ignition_time": "00:04"
+    },
+    {
+        "folder": "20190610_FIRE_bh-w-mobo-c",
+        "ignition_time": "22:25"
+    },
+    {
+        "folder": "20190716_FIRE_bl-s-mobo-c",
+        "ignition_time": "21:45"
+    },
+    {
+        "folder": "20190924_FIRE_bl-s-mobo-c",
+        "ignition_time": "00:01"
+    },
+    {
+        "folder": "20190924_FIRE_sm-n-mobo-c",
+        "ignition_time": "23:58"
+    },
+    {
+        "folder": "20190924_FIRE_wc-s-mobo-c",
+        "ignition_time": "00:07"
+    },
+    {
+        "folder": "20200601_WILDLAND-DRILLS_om-e-mobo-c",
+        "ignition_time": "22:54"
+    },
+    {
+        "folder": "20200611_skyline_lp-n-mobo-c",
+        "ignition_time": "20:38"
+    },
+    {
+        "folder": "20200705_FIRE_bm-w-mobo-c",
+        "ignition_time": "23:08"
+    },
+    {
+        "folder": "20200727_Border11Fire_om-e-mobo-c",
+        "ignition_time": "05:25"
+    },
+    {
+        "folder": "20200806_SpringsFire_lp-w-mobo-c",
+        "ignition_time": "03:34"
+    },
+    {
+        "folder": "20200822_BrattonFire_lp-e-mobo-c",
+        "ignition_time": "21:56"
+    },
+    {
+        "folder": "20200829_inside-Mexico_mlo-s-mobo-c",
+        "ignition_time": "19:55"
+    },
+    {
+        "folder": "20200905_ValleyFire_lp-n-mobo-c",
+        "ignition_time": "23:27"
+    },
+    {
+        "folder": "20200911_FIRE_mlo-s-mobo-c",
+        "ignition_time": "21:51"
+    },
+    {
+        "folder": "20200930_inMexico_lp-s-mobo-c",
+        "ignition_time": "21:30"
+    },
+    {
+        "folder": "20201127_Hawkfire_pi-w-mobo-c",
+        "ignition_time": "21:52"
+    },
+    {
+        "folder": "20201208_FIRE_om-s-mobo-c",
+        "ignition_time": "22:28"
+    },
+    {
+        "folder": "20210115_Bonitafire_tp-w-mobo-c",
+        "ignition_time": "10:07"
+    },
+    {
+        "folder": "ADF_1320",
+        "ignition_time": "17:18"
+    },
+    {
+        "folder": "AWF_axis-winters1",
+        "ignition_time": "10:38"
+    },
+    {
+        "folder": "awf_nvseismolab_baldcaX-0119",
+        "ignition_time": "16:39"
+    },
+    {
+        "folder": "awf_nvseismolab_baldcaX00132",
+        "ignition_time": "13:28"
+    },
+    {
+        "folder": "awf_nvseismolab_geyserpeakX-0098",
+        "ignition_time": "14:40"
+    },
+    {
+        "folder": "awf_nvseismolab_heavenlyX-0140",
+        "ignition_time": "11:45"
+    },
+    {
+        "folder": "awf_nvseismolab_lincolnX-0059",
+        "ignition_time": "15:18"
+    },
+    {
+        "folder": "awf_nvseismolab_loop1X-0062",
+        "ignition_time": "12:23"
+    },
+    {
+        "folder": "awf_nvseismolab_mcclellandX-0173",
+        "ignition_time": "15:00"
+    },
+    {
+        "folder": "awf_nvseismolab_noaaX-0180",
+        "ignition_time": "13:00"
+    },
+    {
+        "folder": "awf_nvseismolab_peavineX00056",
+        "ignition_time": "19:48"
+    },
+    {
+        "folder": "awf_nvseismolab_virginiaX00080",
+        "ignition_time": "17:21"
+    },
+    {
+        "folder": "awf_nvseismolab_virginiaX00178",
+        "ignition_time": "18:00"
+    },
+    {
+        "folder": "pyronear_brison_4",
+        "ignition_time": "04:04"
+    },
+    {
+        "folder": "pyronear_cabanelle_2",
+        "ignition_time": "08:45"
+    },
+    {
+        "folder": "pyronear_ferion_4",
+        "ignition_time": "08:50"
+    },
+    {
+        "folder": "pyronear_st_peray_1",
+        "ignition_time": "16:43"
+    }
+]
