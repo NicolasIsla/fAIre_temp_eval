@@ -13,6 +13,10 @@ class FireClassifierv2(pl.LightningModule):
         super(FireClassifierv2, self).__init__()
         self.save_hyperparameters()
 
+        self.resize = transforms.Resize((112, 112))
+        self.to_tensor = transforms.ToTensor()
+        self.normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+        
         # Usamos EfficientNetB3 como extractor de características.
         efficientnet = create_model('efficientnet_b3', pretrained=True)
 
