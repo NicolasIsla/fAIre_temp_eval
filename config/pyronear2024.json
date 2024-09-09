@@ -10,5 +10,5 @@
     // "video_folder": "20190529_94Fire_lp-s-mobo-c",
     "confidence_threshold": 0.05,
     "frames_back": 3,
-    "n_layers": 3,
+    "n_layers": 1,
 }
