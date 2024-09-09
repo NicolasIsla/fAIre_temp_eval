@@ -7,7 +7,7 @@
     "lstm_resnet_model_type": "lstm_resnet",
     "lstm_resnet_model_version": "v1",
     "ignition_time_path": "./data/fire_truth.json",
-    "video_folder": "",
+    "video_folder": "20170722_FIRE_so-s-mobo-c",
     "confidence_threshold": 0.01,
     "frames_back": 3,
     "n_layers": 2
